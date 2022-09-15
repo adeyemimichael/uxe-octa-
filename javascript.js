@@ -33,22 +33,22 @@ function validateForm() {
 
 
 
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.4/firebase-app.js";
+ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.4/firebase-app.js";
 
 
- import {
- getFirestore,
+import {
+    getFirestore,
   collection,
-  getDocs, addDoc} from "https://www.gstatic.com/firebasejs/9.9.4/firebase-firestore.js";
+  getDocs, addDoc
+} from "https://www.gstatic.com/firebasejs/9.9.4/firebase-firestore.js";
  const firebaseConfig = {
-    apiKey: "AIzaSyB2iO1nsUTVhtttPAFSk_exxaMHYXNMek4",
-    authDomain: "octa-docs.firebaseapp.com",
-    databaseURL: "https://octa-docs-default-rtdb.firebaseio.com",
-    projectId: "octa-docs",
-    storageBucket: "octa-docs.appspot.com",
-    messagingSenderId: "100851652875",
-    appId: "1:100851652875:web:dd6266e003977e000e2a0e",
-    measurementId: "G-R8SG3FGLME"
+    apiKey: "AIzaSyAXm8fcun5ESB6dMFhPdEi6CY6ELafsFPA",
+    authDomain: "use-octa-db.firebaseapp.com",
+    projectId: "use-octa-db",
+    storageBucket: "use-octa-db.appspot.com",
+    messagingSenderId: "859071200043",
+    appId: "1:859071200043:web:88daf3f4328ce7cb4ca36e",
+    measurementId: "G-MDW8BE6MQX"
   };
 
 const app = initializeApp(firebaseConfig);
